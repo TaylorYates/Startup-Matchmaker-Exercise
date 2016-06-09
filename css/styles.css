@@ -1,0 +1,213 @@
+/*general stylings*/
+
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0px;
+}
+
+#bodyContainer {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  border-bottom-style: groove;
+  font-size: 26px;
+  font-family: impact;
+  text-transform: uppercase;
+}
+
+/*header stylings*/
+
+header {
+  background-color: #000000;
+  height: 135px;
+  border-bottom: 5px #FFFF00 solid;
+}
+
+header h1 {
+  color: #FFFF00;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+header nav {
+  padding-top: 15px;
+  padding-left: 190px;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.lightLinks {
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.boldLinks {
+  font-family: impact;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+/*slogan stylings*/
+
+#slogan {
+  background-color: #D3D3D3;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.yellowUnderline {
+  border-bottom: 2px #FFFF00 solid;
+}
+
+/*main stylings*/
+
+main {
+  background: url("../images/coworking.jpg");
+  width: auto;
+  height: 570px;
+  background-repeat: no-repeat;
+}
+
+#mainText {
+  display: inline-block;
+  border: 2px outset;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 310px;
+  height: 440px;
+  text-align: left;
+  font-family: sans-serif;
+  margin-left: 550px;
+  margin-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#mainText h3 {
+  font-size: 30px;
+}
+
+#mainText p {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+#mainButton {
+  background-color: #FFFF00;
+  border-bottom-color: #FFFF00;
+  border-radius: 5px;
+  font-size: 26px;
+  font-family: impact;
+  text-transform: uppercase;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*clear containers stylings*/
+#clearContainers {
+  color: #000000;
+  background-color: #FFFFFF;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#clearContainers h4 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+#clearContainers p {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+/*grey buttons for clear containers stylings*/
+.greyButtons {
+  background-color: #D3D3D3;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*clear containers alignment and right borders*/
+.clearContainersLeft {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px #D3D3D3 solid;
+  width: 280px;
+}
+
+.clearContainersMiddle {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 280px;
+  border-right: 1px #D3D3D3 solid;
+}
+
+.clearContainersRight {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 280px;
+}
+
+/*footer stylings*/
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
